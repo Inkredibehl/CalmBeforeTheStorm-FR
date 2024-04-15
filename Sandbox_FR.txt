@@ -1,0 +1,90 @@
+Sandbox_FR = {
+	Sandbox_MinutesBetweenZombieCalls = "Fréquence de mise à jour de la phase de tempête",
+	Sandbox_MinutesBetweenZombieCalls_tooltip = "Le nombre de minutes entre chaque mise à jour de phase de tempête.",
+
+	Sandbox_StormAlertMessage = "Message d'alerte de horde",
+	Sandbox_StormAlertMessage_tooltip = "Le message qui apparaîtra au-dessus de la tête du joueur lorsque la phase de tempête commence. (Facultatif)",
+
+	Sandbox_MinutesBetweenCalmPhaseUpdates = "Fréquence de mise à jour de la phase calme",
+	Sandbox_MinutesBetweenCalmPhaseUpdates_tooltip = "Le nombre de minutes entre chaque mise à jour de phase calme.",
+	
+	Sandbox_SoundEffects = "Activer les effets sonores",
+	Sandbox_SoundEffects_tooltip = "Permet de jouer les effets sonores au début de la phase de tempête.",
+
+	Sandbox_CalmBeforeTheStorm = "Le Calme Avant la Tempête",
+	Sandbox_HordeRadius = "Rayon de la horde",
+	Sandbox_HordeRadius_tooltip = "Nombre de tuiles à partir des positions de la horde où les zombies seront appelés.",
+	
+	Sandbox_HordeDistance = "Distance de la horde",
+	Sandbox_HordeDistance_tooltip = "Nombre de tuiles à partir du joueur où les hordes se formeront.",
+
+	Sandbox_RandomDurationFlag = "Remplacer les valeurs de durée aléatoire",
+	Sandbox_RandomDurationFlag_tooltip = "Si activé, les différentes phases se verront attribuer une valeur aléatoire dans les plages ci-dessous.",
+
+	Sandbox_CooldownPhaseDuration = "Durée de la phase de refroidissement",
+	Sandbox_CooldownPhaseDuration_tooltip = "Nombre d'heures de jeu avant que la phase calme ne commence.",
+
+	Sandbox_CalmPhaseDuration = "Durée de la phase calme",
+	Sandbox_CalmPhaseDuration_tooltip = "Nombre d'heures de jeu pendant lesquelles les zombies formeront des hordes avant la phase de tempête.",
+
+	Sandbox_StormPhaseDuration = "Durée de la phase de tempête",
+	Sandbox_StormPhaseDuration_tooltip = "Nombre d'heures de jeu pendant lesquelles les zombies traqueront les survivants pendant la phase de tempête.",
+
+	Sandbox_MinCooldownPhaseDuration = "Durée minimale de la phase de refroidissement",
+	Sandbox_MaxCooldownPhaseDuration = "Durée maximale de la phase de refroidissement",
+	Sandbox_MinCooldownPhaseDuration_tooltip = "Le nombre minimum d'heures de jeu avant que la phase calme ne commence. (AVERTISSEMENT : Cette valeur ne sera prise en compte que si "Valeurs de durée aléatoire" est cochée)",
+	Sandbox_MaxCooldownPhaseDuration_tooltip = "Le nombre maximum d'heures de jeu avant que la phase calme ne commence. (AVERTISSEMENT : Cette valeur ne sera prise en compte que si "Valeurs de durée aléatoire" est cochée)",
+	
+	Sandbox_MinCalmPhaseDuration = "Durée minimale de la phase calme",
+	Sandbox_MaxCalmPhaseDuration = "Durée maximale de la phase calme",
+	Sandbox_MinCalmPhaseDuration_tooltip = "Le nombre minimum d'heures de jeu pendant lesquelles les zombies formeront des hordes avant la phase de tempête. (AVERTISSEMENT : Cette valeur ne sera prise en compte que si "Valeurs de durée aléatoire" est cochée)",
+	Sandbox_MaxCalmPhaseDuration_tooltip = "Le nombre maximum d'heures de jeu pendant lesquelles les zombies formeront des hordes avant la phase de tempête. (AVERTISSEMENT : Cette valeur ne sera prise en compte que si "Valeurs de durée aléatoire" est cochée)",
+
+	Sandbox_MinStormPhaseDuration = "Durée minimale de la phase de tempête",
+	Sandbox_MaxStormPhaseDuration = "Durée maximale de la phase de tempête",
+	Sandbox_MinStormPhaseDuration_tooltip = "Le nombre minimum d'heures de jeu pendant lesquelles les zombies traqueront les survivants pendant la phase de tempête. (AVERTISSEMENT : Cette valeur ne sera prise en compte que si "Valeurs de durée aléatoire" est cochée)",
+	Sandbox_MaxStormPhaseDuration_tooltip = "Le nombre maximum d'heures de jeu pendant lesquelles les zombies traqueront les survivants pendant la phase de tempête. (AVERTISSEMENT : Cette valeur ne sera prise en compte que si "Valeurs de durée aléatoire" est cochée)",
+	
+	Sandbox_EnableLogging = "Activer la journalisation",
+	Sandbox_EnableLogging_tooltip = "Cela permet à l'utilisateur d'activer la journalisation dans le chat du jeu avec une variété d'informations sur les minuteries de phase actuelles/futures.",
+	
+	Sandbox_DebugMinutesToUpdateConsole = "Délai de sortie console",
+	Sandbox_DebugMinutesToUpdateConsole_tooltip = "Mises à jour toutes les minutes spécifiées en jeu. Cela s'adresse aux propriétaires de serveurs qui souhaitent éviter que la console ne soit inondée de messages.",
+	
+	Sandbox_MaxNumChasingZombies = "Nombre maximum de zombies par joueur",
+	Sandbox_MaxNumChasingZombies_tooltip = "Le nombre minimum de zombies qui peuvent vous poursuivre avant que la phase de tempête cesse de se mettre à jour. Si zéro, cette option est ignorée.",
+	
+	Sandbox_PlayerPositionOffset = "Dispersion de la horde",
+	Sandbox_PlayerPositionOffset_tooltip = "Décale la position cible par rapport au joueur par une valeur aléatoire entre zéro et la valeur spécifiée. Cela rend les hordes moins regroupées et plus désorganisées.",
+	
+	Sandbox_MigrateToNorth = "Migration vers le nord",
+	Sandbox_MigrateToNorth_tooltip = "Permet aux zombies de migrer au nord du joueur.",
+	
+	Sandbox_MigrateToEast = "Migration vers l'est",
+	Sandbox_MigrateToEast_tooltip = "Permet aux zombies de migrer à l'est du joueur.",
+	
+	Sandbox_MigrateToSouth = "Migration vers le sud",
+	Sandbox_MigrateToSouth_tooltip = "Permet aux zombies de migrer au sud du joueur.",
+	
+	Sandbox_MigrateToWest = "Migration vers l'ouest",
+	Sandbox_MigrateToWest_tooltip = "Permet aux zombies de migrer à l'ouest du joueur.",
+	
+	Sandbox_MigrateToNorthEast = "Migration vers le nord-est",
+	Sandbox_MigrateToNorthEast_tooltip = "Permet aux zombies de migrer au nord-est du joueur.",
+	
+	Sandbox_MigrateToSouthEast = "Migration vers le sud-est",
+	Sandbox_MigrateToSouthEast_tooltip = "Permet aux zombies de migrer au sud-est du joueur.",
+
+	Sandbox_MigrateToNorthWest = "Migration vers le nord-ouest",
+	Sandbox_MigrateToNorthWest_tooltip = "Permet aux zombies de migrer au nord-ouest du joueur.",
+
+	Sandbox_MigrateToSouthWest = "Migration vers le sud-ouest",
+	Sandbox_MigrateToSouthWest_tooltip = "Permet aux zombies de migrer au sud-ouest du joueur.",
+
+	Sandbox_SoundType = "Sons",
+	Sandbox_SoundType_option1 = "Désactivé",
+	Sandbox_SoundType_option2 = "Ancien",
+	Sandbox_SoundType_option3 = "Défaut"
+}
+
+
